@@ -28,6 +28,46 @@
   color: #61dafb;
 }
 
+.container {
+  background-color: #f2f2f2;
+  border-radius: .25rem;
+  padding: 20px;
+  margin: 10px auto;
+  width: 100%;
+}
+
+.detail-label {
+  width: 150px; /* Fixed width for labels */
+  font-weight: bold;
+  text-align: left; /* Ensure label text is left-aligned */
+}
+
+.detail-value {
+  text-align: left; /* Ensure detail text is left-aligned */
+}
+
+.scrollable-table {
+  height: 400px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-container {
+  border-radius: 8px;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.table {
+  width: auto; /* Auto width to contain within parent container */
+}
+
+.table-responsive {
+  overflow-x: auto; /* Makes the table horizontally scrollable if needed */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
